@@ -21,7 +21,7 @@ A robust RESTful API powered by **Django** and **Ultralytics YOLOv8** to perform
 * **Image Processing:** Pillow & OpenCV
 * **Deployment:** Docker (Non-root user configuration)
 
-## 🔌 API Documentation
+## 🔌 API Documentationش
 
 ### Detect Objects
 **Endpoint:** `POST /api/detect/`
@@ -57,6 +57,7 @@ A robust RESTful API powered by **Django** and **Ultralytics YOLOv8** to perform
         }
     ]
 }
+```
 📦 Installation & Local Run
 Clone the repository:
 
@@ -90,4 +91,4 @@ Upload the code.
 
 The API will be live at https://huggingface.co/spaces/USERNAME/SPACE_NAME.
 
-Made with ❤️ by [Your Name]
+Made with ❤️ by Nima
