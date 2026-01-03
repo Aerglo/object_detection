@@ -61,27 +61,31 @@ A robust RESTful API powered by **Django** and **Ultralytics YOLOv8** to perform
 📦 Installation & Local Run
 Clone the repository:
 
-Bash
+```Bash
 
 git clone [https://github.com/your-username/object-detection-api.git](https://github.com/your-username/object-detection-api.git)
 cd object-detection-api
+```
 Create a Virtual Environment:
 
-Bash
+```Bash
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 Install Dependencies:
 
-Bash
+```Bash
 
 pip install -r requirements.txt
+```
 Run Migrations & Server:
 
-Bash
+```Bash
 
 python manage.py migrate
 python manage.py runserver
+```
 🐳 Deployment (Hugging Face / Docker)
 This project includes a production-ready Dockerfile configured for non-root users (required for Hugging Face Spaces).
 
