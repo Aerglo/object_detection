@@ -1,0 +1,23 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python compilation files
+*.pyc
+__pycache__/
+
+# Django local settings & db
+db.sqlite3
+media/# Virtual Environment
+venv/
+env/
+.env
+
+# Python compilation files
+*.pyc
+__pycache__/
+
+# Django local settings & db
+db.sqlite3
+media/
